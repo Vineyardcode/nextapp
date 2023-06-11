@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 // import ShowMore from "./ShowMore";
-// import SearchBar from "./Searchbar";
+import SearchBar from "./Searchbar";
 // import CustomFilter from "./CustomFilter";
 // import CarCard from "./CarCard";
 
@@ -15,7 +15,7 @@ export {
   Footer,
   NavBar,
   // ShowMore,
-  // SearchBar,
+  SearchBar,
   // CarCard,
   // CustomFilter,
 };

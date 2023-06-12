@@ -28,7 +28,7 @@ const SearchBar = () => {
     e.preventDefault();
 
     if (manufacturer.trim() === "" && model.trim() === "") {
-      return alert("Please provide some input");
+      return alert("This field requires an input");
     }
 
     updateSearchParams(model.toLowerCase(), manufacturer.toLowerCase());
